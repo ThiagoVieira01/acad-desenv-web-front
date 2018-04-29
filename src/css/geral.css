@@ -1,0 +1,37 @@
+header, main, footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+
+.title-side-nav {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.title-side-nav-wrapper{
+    height: 64px;
+    justify-content: center;
+}
+
+.card-dashboard {
+    padding: 35px;
+}
+
+.side-nav .collapsible-header, .side-nav.fixed .collapsible-header {
+    padding: 0 32px;
+    font-weight: 500;
+}
+
+.side-nav .collapsible-body li a, .side-nav.fixed .collapsible-body li a {
+    padding: 0 37.5px 0 45px;
+    font-weight: 400;
+}
+
+.icon-delete {
+    cursor: pointer;
+}
